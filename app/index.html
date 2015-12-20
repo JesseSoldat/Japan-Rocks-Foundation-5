@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Hello, World</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+   <link rel="stylesheet" href="css/foundation.min.css" />
+    <script src="js/modernizr.js"></script>
+
 </head>
 <body>
   <nav class="top-bar">
@@ -18,6 +24,7 @@
       </ul>
     </section>
   </nav>
+
   <div id="top" class="row">
     <div class="large-12 columns panel">
 
@@ -32,14 +39,14 @@
   </div> 
 
   <div class="row clear">
-    <div class="large-7 columns infoText">
+    <div class="medium-6 large-7 columns infoText">
       <div class="panel">
-        <h4 id="jpText">A long time ago in another corner of the world I was a Japanese Major on a small island know as Oahu. It was always my dream to go live in Japan. My first time there I went to visit a friend who I had met while she was traveling to Hawaii. She let me stay at her sisters apartment and we had a great time visiting all the spots in Tokyo.
+        <h4 id="jpText">A long time ago in another corner of the world, I was a Japanese Major on a small island known as Oahu. It was always my dream to go live in Japan. My first time there, I went to visit a friend who I had met while she was traveling to Hawaii. She let me stay at her sister's apartment, and we had a great time visiting all the spots in Tokyo.
         </h4>
       </div>
     </div>
 
-    <div class="large-5 columns">
+    <div class="medium-6 large-5 columns">
       <img src="../img/jp01.jpg" />
     </div>
     
@@ -48,7 +55,7 @@
   <div class="row">
     <div class="large-12 columns">
       <h2>Why does Japan Rock?</h2>
-      <h4>Japan is a great place to visit throughout the year, however the best time is during the Spring when the flowers blossom, and the Fall when the leaves change colors. There are many sites to visit from modern Tokyo, to historical Kyoto. Their are endless surprises ahead of you as you are amazed by the various strange gadgets found in the everyday home and the simplicity of blending nature with religion found in the temples and shrines.</h4>
+      <h4>Japan is a great place to visit throughout the year; however, the best time is during the Spring when the flowers blossom and the Fall when the leaves change colors. There are many sites to visit from modern Tokyo to historical Kyoto. There are endless surprises ahead of you as you are amazed by the various strange gadgets found in the everyday home and the simplicity of blending nature with religion found in the temples and shrines.</h4>
       <br />
       <a class="button" href="https://www.facebook.com/visitjapan/" target="_blank">Find out more!</a>
     </div>
@@ -57,30 +64,87 @@
   <div class="row">
     <div class="large-12 columns">
       <h3>A picture is worth a thousand words. Click to view!</h3>
-      <ul class="large-block-grid-4">
-        <li><a href="#"><img src="img/jp02.jpg" /></a></li>
-        <li><a href="#"><img src="img/jp03.jpg" /></a></li>
-        <li><a href="#"><img src="img/jp04.jpg" /></a></li>
-        <li><a href="#"><img src="img/jp05.jpg" /></a></li>
+      <ul class="medium-block-grid-4 large-block-grid-4">
+        <li><a href="#" data-reveal-id="jp02"><img src="img/jp02.jpg" /></a></li>
 
-        <li><a href="#"><img src="img/jp06.jpg" /></a></li>
-        <li><a href="#"><img src="img/jp07.jpg" /></a></li>
-        <li><a href="#"><img src="img/jp08.jpg" /></a></li>
-        <li><a href="#"><img src="img/jp09.jpg" /></a></li>
+        <li><a href="#" data-reveal-id="jp03"><img src="img/jp03.jpg" /></a></li>
+        <li><a href="#" data-reveal-id="jp04"><img src="img/jp04.jpg" /></a></li>
+        <li><a href="#" data-reveal-id="jp05"><img src="img/jp05.jpg" /></a></li>
+
+        <li><a href="#" data-reveal-id="jp06"><img src="img/jp06.jpg" /></a></li>
+        <li><a href="#" data-reveal-id="jp07"><img src="img/jp07.jpg" /></a></li>
+        <li><a href="#" data-reveal-id="jp08"><img src="img/jp08.jpg" /></a></li>
+        <li><a href="#" data-reveal-id="jp09"><img src="img/jp09.jpg" /></a></li>
 
       </ul>
     </div>
   </div>
 
-   
 
+  <!-- Second Image -->
+  <div id="jp02" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="false" role="dialog">
+    <h2 id="modalTitle1">Shibuya, Hachiko Crossing</h2>
+      <img src="img/jp02.jpg">
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
 
+  <!-- Third Image -->
+  <div id="jp03" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="false" role="dialog">
+    <h2 id="modalTitle2">Shinjuku</h2>
+      <img src="img/jp03.jpg">
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
 
+   <!-- Fourth Image -->
+  <div id="jp04" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="false" role="dialog">
+    <h2 id="modalTitle4">Dancing at Yoyogi Park</h2>
+      <img src="img/jp04.jpg">
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
 
+    <!-- Fifth Image -->
+  <div id="jp05" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="false" role="dialog">
+    <h2 id="modalTitle5">Japan === ZEN</h2>
+      <img src="img/jp05.jpg">
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
 
+     <!-- Sixth Image -->
+  <div id="jp06" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="false" role="dialog">
+    <h2 id="modalTitle6">Goth meets the military!</h2>
+      <img src="img/jp06.jpg">
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
 
+    <!-- Seventh Image -->
+  <div id="jp07" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="false" role="dialog">
+    <h2 id="modalTitle7">The land of the Samurai!</h2>
+      <img src="img/jp07.jpg">
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
+
+    <!-- Eighth Image -->
+  <div id="jp08" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="false" role="dialog">
+    <h2 id="modalTitle8">Traditions die hard!</h2>
+      <img src="img/jp08.jpg">
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
+
+     <!-- Ninth Image -->
+  <div id="jp09" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="false" role="dialog">
+    <h2 id="modalTitle9">A world of fantasy!</h2>
+      <img src="img/jp09.jpg">
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
   
   
   <script src="js/main.js"></script>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+
+  <script>
+      $(document).foundation();
+    </script>
+
 </body>
 </html>

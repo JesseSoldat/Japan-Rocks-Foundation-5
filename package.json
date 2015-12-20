@@ -41,6 +41,7 @@
     "jquery-ui": "^1.10.5",
     "moment": "^2.10.6",
     "normalize.css": "^3.0.3",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "foundation-sites": "^5.5.3"
   }
 }
