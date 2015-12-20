@@ -8470,4 +8470,13 @@ th.hide-for-touch {
 body {
   background: #e2ebf3; }
 
+.hWorld {
+  float: left; }
+
+.jpRocks {
+  float: right; }
+
+#jpText {
+  line-height: 35px; }
+
 /*# sourceMappingURL=main.css.map */
